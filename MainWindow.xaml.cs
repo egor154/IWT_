@@ -24,9 +24,10 @@ namespace IWT_
         {
             InitializeComponent();
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public void Button_Click(object sender, RoutedEventArgs e)
         {
-            _mainFrame.NavigationService.Navigate(new Page1());
+         var service = NavigationService.GetNavigationService(this);
+            service.Navigate(typeof(Page1));          
         }
     }
 }

@@ -18,7 +18,7 @@
             <Image Source="/Group 1.png" Margin="972,1480,1511,96"/>
             <Image Source="/16.png" Margin="1462,1519,858,96"/>
         </StackPanel>
-        <Frame x:Name="_mainFrame" />
+        
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock TextAlignment="Center"
                        Foreground="White"
@@ -35,7 +35,7 @@
                     Width="1047"
                     Height="272"
                     Content="Нажмите на экран, чтобы продолжить"
-                    Click="Button_Click">
+                    Click="">
                 <Button.Template>
                     <ControlTemplate>
                         <Border BorderThickness="2"

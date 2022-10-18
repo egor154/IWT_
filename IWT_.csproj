@@ -127,5 +127,26 @@
   <ItemGroup>
     <Resource Include="Resources\Rectangle 5.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="path6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="path10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="path8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="path12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="path4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Group 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="16.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

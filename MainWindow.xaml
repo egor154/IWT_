@@ -18,7 +18,7 @@
             <Image Source="/Group 1.png" Margin="972,1480,1511,96"/>
             <Image Source="/16.png" Margin="1462,1519,858,96"/>
         </StackPanel>
-
+        <Frame x:Name="_mainFrame" />
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock TextAlignment="Center"
                        Foreground="White"
@@ -26,7 +26,7 @@
                        TextWrapping="Wrap"
                        FontWeight="Bold"
                        Height="444" 
-                       Width="1874">
+                       Width="1874" FontFamily="Arial">
                        <Run Text="ИННОВАЦИОННЫЕ ОРУЖЕЙНЫЕ "/>
                        <LineBreak/>
                        <Run Text="ТЕХНОЛОГИИ"/>
@@ -34,12 +34,14 @@
             <Button Margin="0,141,0,0"
                     Width="1047"
                     Height="272"
-                    Content="Нажмите на экран, чтобы продолжить">
+                    Content="Нажмите на экран, чтобы продолжить"
+                    Click="Button_Click">
                 <Button.Template>
                     <ControlTemplate>
                         <Border BorderThickness="2"
                                 BorderBrush="White"
-                                CornerRadius="800">
+                                CornerRadius="150"
+                                Padding="32,38,32,38">
                             <TextBlock Text="Нажмите на экран, чтобы продолжить"
                                        Foreground="Gray"
                                        HorizontalAlignment="Center"

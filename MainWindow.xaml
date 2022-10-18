@@ -35,7 +35,7 @@
                     Width="1047"
                     Height="272"
                     Content="Нажмите на экран, чтобы продолжить"
-                    Click="">
+                    Click="Button_Click">
                 <Button.Template>
                     <ControlTemplate>
                         <Border BorderThickness="2"
@@ -52,5 +52,6 @@
                 </Button.Template>
             </Button>
         </StackPanel>
+        <Frame x:Name="MyFrame"/>
     </Grid>
 </Window>

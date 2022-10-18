@@ -12,13 +12,11 @@
     <Grid>
         <StackPanel Orientation="Vertical">
             <Image Source="/Rectangle 5.png" Margin="0,0,2146,0"/>
-            <Button Margin="130,1668,130,127" 
-                    Width="317" 
-                    Height="29"
-                    Content="Просмотреть PDF-файл">
-            </Button>
-                    </StackPanel>
-        <Image Source="/Group 1.png" Margin="180,42,152,1534"/>
+            <Button 
+                    
+                    Content="Просмотреть PDF-файл" Width="1140"/>
+        </StackPanel>
+        <Image Source="/Group 1.png" Margin="12,10,2241,1566"/>
         <Image Source="/Rectangle 4.png" Margin="576,0,1570,0"/>
     </Grid>
 </Page>

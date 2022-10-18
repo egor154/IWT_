@@ -26,8 +26,7 @@ namespace IWT_
         }
         public void Button_Click(object sender, RoutedEventArgs e)
         {
-         var service = NavigationService.GetNavigationService(this);
-            service.Navigate(typeof(Page1));          
+            MyFrame.Content = new Page1();
         }
     }
 }

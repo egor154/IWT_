@@ -71,10 +71,24 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Page1.xaml.cs">
       <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page3.xaml.cs">
+      <DependentUpon>Page3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -150,6 +164,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Rectangle 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Group 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Rectangle 4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

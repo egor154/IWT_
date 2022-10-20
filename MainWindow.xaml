@@ -8,17 +8,11 @@
         Title="IWT" Height="1824" Width="2728"
         Background="#121212">
     <Grid>
-        <StackPanel>
-            <Image Source="/Vector.png" Margin="0,64,2271,121" />
-            <Image Source="/path6.png" Margin="2263,1236,1,220"/>
-            <Image Source="/path10.png" Margin="2261,777,356,681"/>
-            <Image Source="/path8.png" Margin="2442,777,180,681"/>
-            <Image Source="/path12.png" Margin="2619,777,1,681"/>
-            <Image Source="/path4.png" Margin="2265,221,0,1130"/>
-            <Image Source="/Group 1.png" Margin="972,1480,1511,96"/>
-            <Image Source="/16.png" Margin="1462,1519,858,96"/>
-        </StackPanel>
-        
+        <Grid>
+            <StackPanel Orientation="Vertical">
+                <Image Source="/Vector.png"  Margin="0,64,2271,121"/>
+            </StackPanel>
+        </Grid>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock TextAlignment="Center"
                        Foreground="White"

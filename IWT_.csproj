@@ -174,5 +174,15 @@
   <ItemGroup>
     <Resource Include="Rectangle 4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Rectangle 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Rectangle 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="QR - каталог IWT.jpg" />
+    <Resource Include="QR - каталог Red.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

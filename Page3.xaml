@@ -5,13 +5,37 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:IWT_"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      Height="1824" Width="2177"
       Title="Page3"
       Background="#121212">
-
     <Grid>
-        <StackPanel Orientation="Vertical">
-            <Image Source=""/>
+        <Image Source="/Rectangle 8.png"  Height="1824" Width="577" HorizontalAlignment="Left"/>
+        <Image Source="/Rectangle 9.png" Height="1842" Width="833" Margin="457,-18,887,0"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Top"
+                    Margin="215,276,306,1220">
+            <TextBlock TextAlignment="Center"
+                       Foreground="White"
+                       FontSize="75"
+                       TextWrapping="Wrap"
+                       FontWeight="Bold"
+                       Height="182" 
+                       Width="1054"> 
+                       <Run Text="ФАЙЛ УСПЕШНО "/>
+                       <LineBreak/>
+                       <Run Text="ОТПРАВЛЕН"/>
+            </TextBlock>
+            <TextBlock TextAlignment="Center" Width="1050"
+                       Height="130"
+                       Foreground="#7D7D7D"
+                       FontSize="45">
+                       <Run Text="Также вы можете скачать каталог себе на"/>
+                       <LineBreak/>
+                       <Run Text="телефон, отсканировав этот QR-код"/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel >
+            <Image Source="/QR - каталог IWT.jpg" Margin="191,816,896,519" Height="489" Width="488" />
+            <Image Source="/QR - каталог Red.jpg" Margin="125,0,0,0" Height="489" Width="488" />
         </StackPanel>
     </Grid>
 </Page>

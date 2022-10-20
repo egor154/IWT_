@@ -8,11 +8,9 @@
         Title="IWT" Height="1824" Width="2728"
         Background="#121212">
     <Grid>
-        <Grid>
-            <StackPanel Orientation="Vertical">
-                <Image Source="/Vector.png"  Margin="0,64,2271,121"/>
-            </StackPanel>
-        </Grid>
+        <StackPanel Orientation="Vertical">
+            <Image Source="/Vector.png"  Margin="0,64,2271,121"/>
+        </StackPanel>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock TextAlignment="Center"
                        Foreground="White"

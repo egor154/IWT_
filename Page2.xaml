@@ -67,5 +67,25 @@
                     BorderThickness="0"/>
         </StackPanel>
         <Frame x:Name="MyFrame"/>
+        <Image Source="/Rectangle 6.png" Margin="1572,0,570,0" Width="577" Height="1824"/>
+        <Image Source="/Group 1.png" Margin="1744,42,742,1534" Width="243" Height="248"/>
+        <Button Margin="1671,1671,669,80"         
+                Background="#FF121212"
+                Foreground="#FBB911"
+                Content="Просмотреть PDF-файл"
+                FontSize="24"
+                Click="Button_Click"
+                BorderThickness="2" BorderBrush="#FFFBB911">
+        </Button>
+        <Image Source="/Rectangle 7.png" Margin="2143,0,-11,0" Width="577" Height="1824"/>
+        <Image Source="/16.png" Width="408" Height="209" Margin="2237,69,83,1546" />
+        <Button Margin="2247,1671,93,80"         
+                Background="#FF121212"
+                Foreground="#FBB911"
+                Content="Просмотреть PDF-файл"
+                FontSize="24"
+                Click="Button_Click"
+                BorderThickness="2" BorderBrush="#FFFBB911">
+        </Button>
     </Grid>
 </Page>

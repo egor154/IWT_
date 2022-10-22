@@ -1,4 +1,6 @@
 ﻿using System.Windows.Controls;
+using System.Diagnostics;
+using Microsoft.Win32;
 
 namespace IWT_
 {
@@ -10,6 +12,11 @@ namespace IWT_
         public Page3()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+
         }
     }
 }

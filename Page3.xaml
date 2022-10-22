@@ -9,8 +9,29 @@
       Title="Page3"
       Background="#121212">
     <Grid>
-        <Image Source="/Rectangle 8.png" Width="577" HorizontalAlignment="Left" Margin="0,10,0,0"/>
-        <Image Source="/Rectangle 9.png" Width="833" Margin="454,10,1441,-10"/>
+        <Image Source="/Rectangle 8.png" Width="577"
+               Height="1824" Margin="10,0,2141,0" />
+        <Image Source="/Group 1.png" Margin="179,42,2287,1336" Width="243" Height="248"/>
+        <Button Margin="100,1671,2240,80"         
+                Background="#FF121212"
+                Foreground="#FBB911"
+                Content="Просмотреть PDF-файл"
+                FontSize="24"
+                Click="Button_Click"
+                BorderThickness="2" BorderBrush="#FFFBB911">
+        </Button>
+
+        <Image Source="/Rectangle 9.png" Margin="587,0,1564,0" Width="577"
+               Height="1824"/>
+        <Image Source="/16.png" Margin="452,81,1429,1408" Width="408" Height="209"/>
+        <Button Margin="682,1671,1658,80"         
+                Background="#FF121212"
+                Foreground="#FBB911"
+                Content="Просмотреть PDF-файл"
+                FontSize="24"
+                Click="Button_Click"
+                BorderThickness="2" BorderBrush="#FFFBB911">
+        </Button>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Width="1018" Margin="0,276,330,1182">
             <TextBlock TextAlignment="Center"
                        Foreground="White"
@@ -31,7 +52,7 @@
                 <LineBreak/>
                 <Run Text="телефон, отсканировав этот QR-код"/>
             </TextBlock>
-            
+
         </StackPanel>
         <Image Source="/QR - каталог IWT.jpg" Height="489" Width="488" Margin="1247,831,757,435" />
         <Image Source="/QR - каталог Red.jpg" Height="489" Width="488" Margin="2110,866,130,470"/>

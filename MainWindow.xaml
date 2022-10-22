@@ -8,14 +8,21 @@
         Title="IWT" Height="1824" Width="2728"
         Background="#121212">
     <Grid>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Image Source="/Vector.png" HorizontalAlignment="Left"/>
+        <Image Source="/Group 12.png" HorizontalAlignment="Right"/>
+        <Image Source="/Group 1.png" Margin="920,1480,1564,104" Width="243" Height="248"/>
+        <Image Source="/16.png" Height="209" Width="408" Margin="1408,1495,912,104" />
+
+        <StackPanel Orientation="Vertical" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center">
             <TextBlock TextAlignment="Center"
                        Foreground="White"
                        FontSize="120"
                        TextWrapping="Wrap"
                        FontWeight="Bold"
                        Height="444" 
-                       Width="1874" FontFamily="Arial">
+                       Width="1874">
                        <Run Text="ИННОВАЦИОННЫЕ ОРУЖЕЙНЫЕ "/>
                        <LineBreak/>
                        <Run Text="ТЕХНОЛОГИИ"/>

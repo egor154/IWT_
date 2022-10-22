@@ -186,5 +186,9 @@
     <Resource Include="QR - каталог IWT.jpg" />
     <Resource Include="QR - каталог Red.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Rectangle 6.png" />
+    <Resource Include="Rectangle 7.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

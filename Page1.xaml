@@ -9,11 +9,43 @@
       Title="Page1"
       Background="#121212">
     <Grid>
-        <StackPanel>
-            <Image Source="/Rectangle 5.png" Height="1824" Width="576" />
-            <Image Source="/Rectangle 4.png" Height="1824" Width="577" />
-        </StackPanel>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="268,199,255,-10" >
+        <Image Source="/Rectangle 5.png" 
+               Margin="4,0,2147,0" 
+               Width="577"
+               Height="1824"/>
+        <Image Source="/Group 1.png" 
+               Width="243" 
+               Height="248" 
+               Margin="171,42,2314,1534"/>
+        <Button Margin="98,1621,2242,80"         
+                Background="#FF121212"
+                Foreground="#FBB911"
+                Content="Просмотреть PDF-файл"
+                FontSize="24"
+                Click="Button_Click"
+                BorderThickness="2" 
+                BorderBrush="#FFFBB911">
+        </Button>
+        <Image Source="/Rectangle 4.png" 
+               Margin="581,0,1570,-5" 
+               Width="577"
+               Height="1824"/>
+        <Image Source="/16.png" 
+               Width="408" 
+               Height="209" 
+               Margin="666,81,1654,1534" />
+        <Button Margin="676,1621,1654,80"         
+                Background="#FF121212"
+                Foreground="#FBB911"
+                Content="Просмотреть PDF-файл"
+                FontSize="24"
+                Click="Button_Click"
+                BorderThickness="2" 
+                BorderBrush="#FFFBB911">
+        </Button>
+        <StackPanel Orientation="Vertical" 
+                    HorizontalAlignment="Right" 
+                    Margin="268,199,255,-10" >
             <TextBlock TextAlignment="Center"
                        Foreground="White"
                        FontSize="75"
@@ -25,7 +57,8 @@
                 <LineBreak/>
                 <Run Text="каталог продукции? "/>
             </TextBlock>
-            <TextBlock TextAlignment="Center" Width="1050"
+            <TextBlock TextAlignment="Center" 
+                       Width="1050"
                        Height="130"
                        Foreground="#7D7D7D"
                        FontSize="45">

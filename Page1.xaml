@@ -5,18 +5,34 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:IWT_"
       mc:Ignorable="d" 
-      d:DesignHeight="1824" d:DesignWidth="2754"
+      d:DesignHeight="1824" d:DesignWidth="2728"
       Title="Page1"
       Background="#121212">
 
     <Grid>
-        <StackPanel Orientation="Vertical">
-            <Image Source="/Rectangle 5.png" Margin="0,0,2146,0"/>
-            <Image Source="/Rectangle 4.png" Margin="576,0,1570,0"/>
-        </StackPanel>
-        
-        <StackPanel Orientation="Vertical">
-            
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="268,199,255,-10" Width="1000">
+            <TextBlock TextAlignment="Center"
+                       Foreground="White"
+                       FontSize="75"
+                       TextWrapping="Wrap"
+                       FontWeight="Bold"
+                       Height="242" 
+                       Width="1054">
+                <Run Text="Хотите посмотреть "/>
+                <LineBreak/>
+                <Run Text="каталог продукции? "/>
+            </TextBlock>
+            <TextBlock TextAlignment="Center" Width="1050"
+                       Height="130"
+                       Foreground="#7D7D7D"
+                       FontSize="45">
+                <Run Text="Заполните форму и мы вышлем вам "/>
+                <LineBreak/>
+                <Run Text="его на электронную почту"/>
+            </TextBlock>
+            <TextBox>
+                
+            </TextBox>
         </StackPanel>
     </Grid>
 </Page>

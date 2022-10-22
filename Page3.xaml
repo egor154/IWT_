@@ -11,7 +11,7 @@
     <Grid>
         <Image Source="/Rectangle 8.png" Width="577" HorizontalAlignment="Left" Margin="0,10,0,0"/>
         <Image Source="/Rectangle 9.png" Width="833" Margin="454,10,1441,-10"/>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="0,10,10,-10" Width="1000">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Width="1042" Margin="0,276,306,0">
             <TextBlock TextAlignment="Center"
                        Foreground="White"
                        FontSize="75"

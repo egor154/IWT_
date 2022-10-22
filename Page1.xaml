@@ -10,7 +10,7 @@
       Background="#121212">
 
     <Grid>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="268,199,255,-10" Width="1000">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="268,199,255,-10" >
             <TextBlock TextAlignment="Center"
                        Foreground="White"
                        FontSize="75"
@@ -30,9 +30,51 @@
                 <LineBreak/>
                 <Run Text="его на электронную почту"/>
             </TextBlock>
-            <TextBox>
-                
+            <Label Margin="0,145,0,0" 
+                   Content="Фамилия Имя Отчество"
+                   Foreground="White"
+                   FontSize="40">
+            </Label>
+            <TextBox 
+                     FontSize="40"
+                     Foreground="White" 
+                     Background="#FF121212">
             </TextBox>
+            <Label Margin="0,110,0,0"
+                   Content="Ваш телефон"
+                   Foreground="White"
+                   FontSize="40">
+            </Label>
+            <TextBox FontSize="40"
+                     Foreground="White" 
+                     Background="#FF121212">
+            </TextBox>
+            <Label Margin="0,110,0,0"
+                   Content="E-mail"
+                   Foreground="White"
+                   FontSize="40">
+            </Label>
+            <TextBox FontSize="40"
+                     Foreground="White" 
+                     Background="#FF121212">
+            </TextBox>
+            <TextBlock Margin="0,82,0,0"
+                       Foreground="#7D7D7D"
+                       FontSize="30">
+                <Run Text="Я даю согласие на обработку персональных данных и соглашаюсь "/>
+                <LineBreak/>
+                <Run Text="с политикой конфиденциальности."/>
+            </TextBlock>
+            <Button Margin="0,82,0,0"
+                    Background="#FBB911"
+                    Width="1171" Height="207"
+                    Content="Подтвердить данные"
+                    FontSize="50"
+                    Click="Button_Click">
+                    
+            </Button>
+            
         </StackPanel>
+        <Frame x:Name="MyFrame"/>
     </Grid>
 </Page>

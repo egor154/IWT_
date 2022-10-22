@@ -10,6 +10,60 @@
       Background="#121212">
 
     <Grid>
-        
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="264,323,0,0" >
+            <TextBlock TextAlignment="Center"
+                       Foreground="White"
+                       FontSize="75"
+                       TextWrapping="Wrap"
+                       FontWeight="Bold">
+                       
+                <Run Text="ПОДТВЕРДИТЕ"/>
+                <LineBreak/>
+                <Run Text="УКАЗАННЫЙ НОМЕР"/>
+                <LineBreak/>
+                <Run Text="ТЕЛЕФОНА"/>
+            </TextBlock>
+            <TextBlock TextAlignment="Center" Width="1050"
+                       Height="130"
+                       Foreground="#7D7D7D"
+                       FontSize="45"
+                       Text="Введите код из смс">
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBox Margin="549,145,35,0"
+                     Width="138" 
+                     Height="239" 
+                     Background="#FF181818">
+            </TextBox>
+            <TextBox Margin="35,145,35,0"
+                     Width="138" 
+                     Height="239" 
+                     Background="#FF181818">
+            </TextBox>
+            <TextBox Margin="35,145,549,0"
+                     Width="138" 
+                     Height="239" 
+                     Background="#FF181818">
+            </TextBox>
+        </StackPanel>
+        <StackPanel Margin="0,1106,1227,10">
+            <Button Margin="206,145,0,0"
+                Content="Подтвердить номер"
+                Background="#FBB911"
+                Width="1171" 
+                Height="207"
+                FontSize="50"
+                FontWeight="Bold">
+            </Button>
+            <Button Margin="240,70,0,0"
+                    Content="Прислать код повторно"
+                    FontSize="45"
+                    Foreground="#7D7D7D"
+                    Width="865" 
+                    Height="55"
+                    Background="#FF121212"
+                    BorderThickness="0"/>
+        </StackPanel>
     </Grid>
 </Page>

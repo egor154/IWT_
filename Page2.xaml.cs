@@ -11,5 +11,10 @@ namespace IWT_
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            MyFrame.Content = new Page3();
+        }
     }
 }

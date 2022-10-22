@@ -5,11 +5,14 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:IWT_"
       mc:Ignorable="d" 
-      d:DesignHeight="1824" d:DesignWidth="2728"
+      Height="1824" Width="2728"
       Title="Page1"
       Background="#121212">
-
     <Grid>
+        <StackPanel>
+            <Image Source="/Rectangle 5.png" Height="1824" Width="576" />
+            <Image Source="/Rectangle 4.png" Height="1824" Width="577" />
+        </StackPanel>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="268,199,255,-10" >
             <TextBlock TextAlignment="Center"
                        Foreground="White"
@@ -71,9 +74,9 @@
                     Content="Подтвердить данные"
                     FontSize="50"
                     Click="Button_Click">
-                    
+
             </Button>
-            
+
         </StackPanel>
         <Frame x:Name="MyFrame"/>
     </Grid>

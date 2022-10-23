@@ -1,4 +1,5 @@
-﻿using System.Windows.Controls;
+﻿using Microsoft.Win32;
+using System.Windows.Controls;
 
 namespace IWT_
 {
@@ -15,6 +16,11 @@ namespace IWT_
         private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             MyFrame.Content = new Page2();
+        }
+
+        private void Button_Click_1(object sender, System.Windows.RoutedEventArgs e)
+        {
+
         }
     }
 }

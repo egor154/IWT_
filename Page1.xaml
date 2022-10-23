@@ -22,7 +22,7 @@
                 Foreground="#FBB911"
                 Content="Просмотреть PDF-файл"
                 FontSize="24"
-                Click="Button_Click"
+                Click="Button_Click_1"
                 BorderThickness="2" 
                 BorderBrush="#FFFBB911">
         </Button>

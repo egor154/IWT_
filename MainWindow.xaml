@@ -8,8 +8,8 @@
         Title="IWT" Height="1824" Width="2728"
         Background="#121212">
     <Grid>
-        <Image Source="/Vector.png" HorizontalAlignment="Left"/>
-        <Image Source="/Group 12.png" HorizontalAlignment="Right"/>
+        <Image Source="/Vector.png" HorizontalAlignment="Left" Margin="0,64,0,121"/>
+        <Image Source="/Group 12.png" HorizontalAlignment="Right" Margin="0,221,0,220"/>
         <Image Source="/Group 1.png" Margin="920,1480,1564,104" Width="243" Height="248"/>
         <Image Source="/16.png" Height="209" Width="408" Margin="1408,1495,912,104" />
 

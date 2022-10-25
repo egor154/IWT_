@@ -17,7 +17,7 @@
                Width="243" 
                Height="248" 
                Margin="171,42,2314,1534"/>
-        <Button Margin="98,585,2242,1116"         
+        <Button Margin="98,1621,2242,80"         
                 Background="#FF121212"
                 Foreground="#FBB911"
                 Content="Просмотреть PDF-файл"
@@ -34,12 +34,12 @@
                Width="408" 
                Height="209" 
                Margin="666,81,1654,1534" />
-        <Button Margin="666,585,1664,1116"         
+        <Button Margin="676,1621,1654,80"      
                 Background="#FF121212"
                 Foreground="#FBB911"
                 Content="Просмотреть PDF-файл"
                 FontSize="24"
-                Click="Button_Click_2"
+                Click="Button_Click"
                 BorderThickness="2" 
                 BorderBrush="#FFFBB911">
         </Button>
@@ -107,9 +107,7 @@
                     Content="Подтвердить данные"
                     FontSize="50"
                     Click="Button_Click">
-
             </Button>
-
         </StackPanel>
         <Frame x:Name="MyFrame"/>
     </Grid>

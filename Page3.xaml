@@ -12,7 +12,7 @@
         <Image Source="/Rectangle 8.png" Width="577"
                Height="1824" Margin="10,0,2141,0" />
         <Image Source="/Group 1.png" Margin="179,42,2287,1336" Width="243" Height="248"/>
-        <Button Margin="104,532,2236,1219"         
+        <Button Margin="104,1657,2236,80"         
                 Background="#FF121212"
                 Foreground="#FBB911"
                 Content="Просмотреть PDF-файл"
@@ -24,7 +24,7 @@
         <Image Source="/Rectangle 9.png" Margin="587,0,1564,0" Width="577"
                Height="1824"/>
         <Image Source="/16.png" Margin="452,81,1429,1408" Width="408" Height="209"/>
-        <Button Margin="682,532,1658,1219"         
+        <Button Margin="682,1657,1658,80"         
                 Background="#FF121212"
                 Foreground="#FBB911"
                 Content="Просмотреть PDF-файл"

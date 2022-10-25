@@ -74,7 +74,7 @@
                 Foreground="#FBB911"
                 Content="Просмотреть PDF-файл"
                 FontSize="24"
-                Click="Button_Click"
+                Click="Button_Click_1"
                 BorderThickness="2" BorderBrush="#FFFBB911">
         </Button>
         <Image Source="/Rectangle 7.png" Margin="2143,0,-11,0" Width="577" Height="1824"/>
@@ -84,7 +84,7 @@
                 Foreground="#FBB911"
                 Content="Просмотреть PDF-файл"
                 FontSize="24"
-                Click="Button_Click"
+                Click="Button_Click_2"
                 BorderThickness="2" BorderBrush="#FFFBB911">
         </Button>
     </Grid>

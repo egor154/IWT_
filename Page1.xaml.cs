@@ -3,7 +3,6 @@ using System.Windows.Controls;
 using CefSharp;
 using System.Diagnostics;
 using DocumentFormat.OpenXml.Drawing;
-
 namespace IWT_
 {
     /// <summary>
@@ -23,9 +22,18 @@ namespace IWT_
 
         private void Button_Click_1(object sender, System.Windows.RoutedEventArgs e)
         {
-            string fn = "/RED.pdf";//путь к файлу
+            string file = "C:\\Users\\belob\\source\\repos\\IWT_\\IWT.pdf";//путь к файлу
             var proc = new System.Diagnostics.Process();
-            proc.StartInfo.FileName = fn;
+            proc.StartInfo.FileName = file;
+            proc.StartInfo.UseShellExecute = true;
+            proc.Start();
+        }
+
+        private void Button_Click_2(object sender, System.Windows.RoutedEventArgs e)
+        {
+            string file = "C:\\Users\\belob\\source\\repos\\IWT_\\RED.pdf";//путь к файлу
+            var proc = new System.Diagnostics.Process();
+            proc.StartInfo.FileName = file;
             proc.StartInfo.UseShellExecute = true;
             proc.Start();
         }

@@ -34,17 +34,26 @@
             <TextBox Margin="549,145,35,0"
                      Width="138" 
                      Height="239" 
-                     Background="#FF181818">
+                     Background="#FF181818"
+                     Foreground="White"
+                     FontSize="140"
+                     TextAlignment="Center">
             </TextBox>
             <TextBox Margin="35,145,35,0"
                      Width="138" 
                      Height="239" 
-                     Background="#FF181818">
+                     Background="#FF181818"
+                     Foreground="White"
+                     FontSize="140"
+                     TextAlignment="Center">
             </TextBox>
             <TextBox Margin="35,145,549,0"
                      Width="138" 
                      Height="239" 
-                     Background="#FF181818">
+                     Background="#FF181818"
+                     Foreground="White"
+                     FontSize="140"
+                     TextAlignment="Center">
             </TextBox>
         </StackPanel>
         <StackPanel Margin="0,1106,1227,10">

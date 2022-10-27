@@ -15,8 +15,8 @@
                        Foreground="White"
                        FontSize="75"
                        TextWrapping="Wrap"
-                       FontWeight="Bold">
-                       
+                       FontWeight="Bold"
+                       FontStyle="Italic">
                 <Run Text="ПОДТВЕРДИТЕ"/>
                 <LineBreak/>
                 <Run Text="УКАЗАННЫЙ НОМЕР"/>

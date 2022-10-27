@@ -20,7 +20,7 @@
                        TextWrapping="Wrap"
                        FontWeight="Bold"
                        Height="444" 
-                       Width="1874">
+                       Width="1874" FontStyle="Italic">
                        <Run Text="ИННОВАЦИОННЫЕ ОРУЖЕЙНЫЕ "/>
                        <LineBreak/>
                        <Run Text="ТЕХНОЛОГИИ"/>

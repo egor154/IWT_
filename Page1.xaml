@@ -52,7 +52,8 @@
                        TextWrapping="Wrap"
                        FontWeight="Bold"
                        Height="242" 
-                       Width="1054">
+                       Width="1054"
+                       FontStyle="Italic">
                 <Run Text="Хотите посмотреть "/>
                 <LineBreak/>
                 <Run Text="каталог продукции? "/>
@@ -61,7 +62,8 @@
                        Width="1050"
                        Height="130"
                        Foreground="#7D7D7D"
-                       FontSize="45">
+                       FontSize="45"
+                       FontStyle="Italic">
                 <Run Text="Заполните форму и мы вышлем вам "/>
                 <LineBreak/>
                 <Run Text="его на электронную почту"/>
@@ -69,7 +71,8 @@
             <Label Margin="0,145,0,0" 
                    Content="Фамилия Имя Отчество"
                    Foreground="White"
-                   FontSize="40">
+                   FontSize="40"
+                   FontStyle="Italic">
             </Label>
             <TextBox 
                      FontSize="40"
@@ -79,7 +82,8 @@
             <Label Margin="0,110,0,0"
                    Content="Ваш телефон"
                    Foreground="White"
-                   FontSize="40">
+                   FontSize="40"
+                   FontStyle="Italic">
             </Label>
             <TextBox FontSize="40"
                      Foreground="White" 
@@ -88,7 +92,8 @@
             <Label Margin="0,110,0,0"
                    Content="E-mail"
                    Foreground="White"
-                   FontSize="40">
+                   FontSize="40"
+                   FontStyle="Italic">
             </Label>
             <TextBox FontSize="40"
                      Foreground="White" 
@@ -96,7 +101,8 @@
             </TextBox>
             <TextBlock Margin="0,82,0,0"
                        Foreground="#7D7D7D"
-                       FontSize="30">
+                       FontSize="30"
+                       FontStyle="Italic">
                 <Run Text="Я даю согласие на обработку персональных данных и соглашаюсь "/>
                 <LineBreak/>
                 <Run Text="с политикой конфиденциальности."/>

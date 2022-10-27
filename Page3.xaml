@@ -39,7 +39,8 @@
                        TextWrapping="Wrap"
                        FontWeight="Bold"
                        Height="242" 
-                       Width="1054">
+                       Width="1054"
+                       FontStyle="Italic">
                 <Run Text="ФАЙЛ УСПЕШНО "/>
                 <LineBreak/>
                 <Run Text="ОТПРАВЛЕН"/>
